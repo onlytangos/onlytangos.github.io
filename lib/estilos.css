@@ -112,7 +112,7 @@ body{
 .tabpie>div:nth-child(3){
 	width: 200px;
 	position: relative;
-	top: -0.1em;
+	top: 0em;
 	font-family: "PT Sans Narrow", sans-serif;
 	font-style: normal;
 	font-size: 1.2em;
