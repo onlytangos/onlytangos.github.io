@@ -1,9 +1,15 @@
 body{
-	font-size: 17px;
+	font-size: 16px;
+  background-color: #eee;
+  margin: 0 auto;
+  padding: 0;
 }
 #contenido{
 	margin: 0 auto;
-	width: 900px;
+	width: 870px;
+  heigth: 100%;
+  padding: 20px 20px 400px 20px;
+  background-color: #fff;
 }
 /*
 .h2 {
@@ -48,7 +54,7 @@ body{
   font-style: normal;
   transform: rotate(-2deg);
   text-transform: uppercase;  
-  letter-spacing: 0.36em; 
+  letter-spacing: 0.32em; 
   padding: 0.3em 0.0em 0.3em 0.0em;	
   color: #fff;
   background-color: darkgreen;
@@ -65,7 +71,7 @@ body{
   font-size: 18px;
 }
 #ws{
-	width: 16px;
+	width: 20px;
 }
 .tabla{
   width: 100%;
@@ -104,22 +110,23 @@ body{
   color: green;
 }
 .iconoPie{
-	width: 32px;
+	width: 36px;
 }
 .tabpie{
 	display: inline-flex;
+  margin: 0px 0px 0px 6px;
 }
 .tabpie>div:nth-child(3){
 	width: 200px;
 	position: relative;
-	top: 0em;
+	top: 0.15em;
 	font-family: "PT Sans Narrow", sans-serif;
 	font-style: normal;
 	font-size: 1.2em;
 }
 .tabpie>div:nth-child(1){
-	width: 3em;
+	width: 3.5em;
 }
 .tabpie>div:nth-child(2){
-	width: 3em;
+	width: 3.5em;
 }
