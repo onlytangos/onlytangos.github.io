@@ -4,12 +4,20 @@ body{
   margin: 0 auto;
   padding: 0;
 }
+.condensed{
+  font-size: 15px;
+  font-stretch: condensed;
+}
 #contenido{
 	margin: 0 auto;
 	width: 870px;
   heigth: 100%;
   padding: 20px 20px 400px 20px;
   background-color: #fff;
+}
+.full{
+  width: 100%;
+   object-fit: cover; 
 }
 /*
 .h2 {
@@ -32,7 +40,7 @@ body{
   background-color: grey;
 }
 */
-.h1,.h2,.h3,.h4,.h5,.h6 {
+.h1,.h2,.h3,.h4,.h5,.h6{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /*position: relative;*/
@@ -50,17 +58,17 @@ body{
 .titulo1{
 	font-family: "PT Sans Narrow", sans-serif;
 	/*font-weight: 400;*/
-	width: 100%;
+	width: 98.8%;
   font-style: normal;
   transform: rotate(-2deg);
   text-transform: uppercase;  
-  letter-spacing: 0.32em; 
+  letter-spacing: 0.322em; 
   padding: 0.3em 0.0em 0.3em 0.0em;	
   color: #fff;
   background-color: darkgreen;
   font-size: 32px;  
 }
-.titulo2 {
+.titulo2{
 	font-weight: 400;
   color: #fff;
   background-color: darkred;
@@ -77,7 +85,7 @@ body{
   width: 100%;
   border-collapse: collapse;
 	}
-.tabla tr {
+.tabla tr{
 	}
 .tabla tr td{
 		padding: 0px 6px 0px 6px;
