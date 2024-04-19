@@ -4,12 +4,20 @@ body{
   margin: 0 auto;
   padding: 0;
 }
+td[link]{
+  cursor:pointer;
+}
+td[link]:hover{
+  background-color: #eee;
+}
 .condensed{
   font-size: 15px;
   font-stretch: condensed;
 }
 #contenido{
-	margin: 0 auto;
+	margin: auto;
+  max-width: 100%;
+  max-height: 100%;  
 	width: 870px;
   heigth: 100%;
   padding: 20px 20px 400px 20px;
@@ -138,3 +146,71 @@ body{
 .tabpie>div:nth-child(2){
 	width: 3.5em;
 }
+
+
+/* MODAL  BEGIN */
+
+#modalImg{
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+#myModal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 0px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+}
+#modal-content {
+  position: relative;
+  /*background-color: #fefefe;*/
+  margin: auto;
+  /*padding: 0;*/
+  /*border: 1px solid #888;*/
+    width: 870px;
+    height: 100%; 
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.6s;
+}
+#modal-content>div {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+/* The Close Button */
+#modalClose {
+  z-index: 99; /* Sit on top */ 
+  color: yellow;
+  float: right;
+  font-size: 48px;
+  font-weight: bold;
+  position: relative;
+}
+#modalClose:hover,#modalClose:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* MODAL END */
