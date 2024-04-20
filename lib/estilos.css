@@ -6,6 +6,12 @@ body{
   font-stretch: condensed;
   font-family: helvetica;
 }
+.flexAligner { /*Combinamos ambos métodos*/
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+
 td[link]{
   cursor:pointer;
   height: 20px;
@@ -20,7 +26,6 @@ td[link]:hover{
 }
 #contenido{
 	margin: auto;
-  max-width: 100%;
   max-height: 100%;  
 	width: 870px;
   heigth: 100%;
