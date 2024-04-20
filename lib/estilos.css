@@ -1,11 +1,13 @@
 body{
-	font-size: 18x;
+	font-size: 18px;
   background-color: #eee;
   margin: 0 auto;
   padding: 0;
 }
 td[link]{
   cursor:pointer;
+  height: 20px;
+
 }
 td[link]:hover{
   background-color: #eee;
@@ -88,6 +90,9 @@ td[link]:hover{
 }
 #ws{
 	width: 16px;
+  position:relative;
+  left: 8px;
+  top: 2px;
 }
 .tabla{
   width: 100%;
