@@ -1,8 +1,10 @@
 body{
-	font-size: 18px;
+	font-size: 17px;
   background-color: #eee;
   margin: 0 auto;
   padding: 0;
+  font-stretch: condensed;
+  font-family: helvetica;
 }
 td[link]{
   cursor:pointer;
@@ -104,7 +106,6 @@ td[link]:hover{
 		padding: 2px 24px 2px 0px;
 	}
 .et0,.et1,.et2,.et3,.et4,.et5{
-	font-size: 1rem;
   font-weight: bold; 
   text-align: center;
 }
@@ -137,7 +138,7 @@ td[link]:hover{
 	display: inline-flex;
   margin: 0px 0px 0px 6px;
 }
-.tabpie>div:nth-child(3){
+.tabpie>div:nth-child(1){
 	width: 200px;
 	position: relative;
 	top: 0.15em;
@@ -145,11 +146,14 @@ td[link]:hover{
 	font-style: normal;
 	font-size: 1.2em;
 }
-.tabpie>div:nth-child(1){
-	width: 3.5em;
-}
 .tabpie>div:nth-child(2){
-	width: 3.5em;
+	width: 3em;
+}
+.tabpie>div:nth-child(3){
+	width: 3em;
+}
+.tabpie>div:nth-child(4){
+  width: 3em;
 }
 
 
