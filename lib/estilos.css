@@ -1,5 +1,5 @@
 body{
-	font-size: 16px;
+	font-size: 18x;
   background-color: #eee;
   margin: 0 auto;
   padding: 0;
@@ -87,7 +87,7 @@ td[link]:hover{
   font-size: 18px;
 }
 #ws{
-	width: 20px;
+	width: 16px;
 }
 .tabla{
   width: 100%;
@@ -96,7 +96,7 @@ td[link]:hover{
 .tabla tr{
 	}
 .tabla tr td{
-		padding: 0px 6px 0px 6px;
+		padding: 2px 24px 2px 0px;
 	}
 .et0,.et1,.et2,.et3,.et4,.et5{
 	font-size: 1rem;
@@ -203,7 +203,7 @@ td[link]:hover{
   z-index: 99; /* Sit on top */ 
   color: yellow;
   float: right;
-  font-size: 48px;
+  font-size: 64px;
   font-weight: bold;
   position: relative;
 }
