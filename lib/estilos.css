@@ -89,9 +89,9 @@ td[link]:hover{
 	font-weight: 400;
   color: #fff;
   background-color: darkred;
-  transform: rotate(1deg);	
+  transform: rotate(0deg);	
   letter-spacing: 0.16em;
-  padding: 0.2em 1em 0.2em 0.5em;  
+  padding: 0.4em 0.8em 0.2em 0.8em;  
   margin: 10px 0 8px 0;
   font-size: 18px;
 }
